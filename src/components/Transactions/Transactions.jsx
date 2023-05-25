@@ -1,14 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
+import styles from './Transactions.module.css'
 export const Transactions = ({ transaction }) => {
   return (
     <table>
       <thead>
         <tr>
-          <th>Type</th>
-          <th>Amount</th>
-          <th>Currency</th>
+          <th className={styles.text}>Type</th>
+          <th className={styles.text}>Amount</th>
+          <th className={styles.text}>Currency</th>
         </tr>
       </thead>
 

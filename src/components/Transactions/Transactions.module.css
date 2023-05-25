@@ -27,3 +27,7 @@ tr th {
     background-color: rgb(33, 162, 205);
     color: #fff;
 }
+
+.text{
+    letter-spacing: 0.02em;
+}
