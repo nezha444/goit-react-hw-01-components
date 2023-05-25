@@ -17,6 +17,9 @@ import transactions from "./Transactions/transactions.json"
 export const App = () => {
   return (
     <>
+      <BrowserRouter basename="/your_repo_name">
+        <App />
+      </BrowserRouter>
       <Profile
         username={user.username}
         tag={user.tag}
